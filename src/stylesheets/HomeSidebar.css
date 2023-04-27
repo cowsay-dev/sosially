@@ -1,0 +1,79 @@
+.home-sidebar-main {
+  display: flex;
+  flex-direction: column;
+  width: 36rem;
+  height: fit-content;
+  padding: 2rem;
+  border: none;
+  border-radius: 1.2rem;
+  box-shadow: 0rem 0rem 10rem rgba(0, 0, 0, 0.075);
+  background-color: white;
+}
+
+.home-sidebar-logo-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0rem 3.6rem;
+}
+
+.home-sidebar-logo-div img {
+  width: 100%;
+}
+
+.home-sidebar-btns {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 3rem;
+}
+
+.home-sidebar-btns button {
+  padding: 1.6rem 2rem;
+  margin: 1rem 0rem;
+  border-radius: 4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#home-login {
+  color: #5e17eb;
+  background-color: transparent;
+  border: 0.1rem solid #5e17eb;
+  box-shadow: 0rem 0.2rem 1rem #5e17eb4d;
+}
+
+#home-signup {
+  color: white;
+  background-color: #5e17eb;
+  border: 0.1rem solid #5e17eb;
+  box-shadow: 0rem 0.2rem 1rem #5e17eb4d;
+}
+
+.home-sidebar-policy {
+  padding: 2rem;
+}
+
+.home-sidebar-policy p,
+.home-sidebar-policy span {
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgb(78, 78, 78);
+  font-weight: 500;
+}
+
+.home-sidebar-policy span {
+  color: #5e17eb;
+}
+
+@media (max-width: 414px) {
+  .home-sidebar-main {
+    width: 36rem;
+    height: fit-content;
+    padding: 0rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: none;
+    background-color: transparent;
+  }
+}

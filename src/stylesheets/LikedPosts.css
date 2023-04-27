@@ -1,0 +1,60 @@
+.lp-main-div {
+  height: 100vh;
+  /* min-height: 100vh; */
+  padding-top: 5.7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.lp-center-div {
+  display: flex;
+  width: 58rem;
+  flex-direction: column;
+  overflow: scroll;
+  scrollbar-width: none;
+  padding: 2rem 1rem;
+}
+
+.lp-center-div h3 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.lp-center-div::-webkit-scrollbar {
+  display: none;
+}
+
+.lp-left-div,
+.lp-right-div,
+.lp-right-div-2 {
+  padding: 2rem 1rem;
+  width: 30rem;
+}
+
+.lp-right-div-2 {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lp-left-div,
+  .lp-right-div {
+    display: none;
+  }
+
+  .lp-right-div-2 {
+    display: block;
+  }
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .lp-left-div,
+  .lp-right-div,
+  .lp-right-div-2 {
+    display: none;
+  }
+
+  .lp-center-div {
+    padding-bottom: 6rem;
+  }
+}

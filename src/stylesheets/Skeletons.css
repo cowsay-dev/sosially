@@ -1,0 +1,94 @@
+/* Side profile skeleton */
+
+.side-profile-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-profile-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.side-profile-text p {
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+}
+
+/* UserProfileSkeleton */
+.user-profile-skeleton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 0.4rem;
+}
+
+.user-profile-skeleton-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 2rem;
+  flex: 1;
+  border-radius: 0.4rem;
+}
+.user-profile-skeleton-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 0.4rem;
+}
+
+@media screen and (max-width: 480px) {
+  #ups-1 {
+    order: 2;
+  }
+  #ups-2 {
+    order: 1;
+  }
+  #ups-3 {
+    order: 3;
+  }
+
+  .user-profile-skeleton-name {
+    justify-content: flex-start;
+  }
+}
+
+/* PostCardSkeleton */
+.pcs-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem 0.6rem;
+  margin: 1rem 0rem;
+  border-radius: 1.2rem;
+  background-color: white;
+  box-shadow: 0rem 0rem 0.4rem rgba(0, 0, 0, 0.014);
+}
+
+.pcs-uinfo-div {
+  display: flex;
+  align-items: center;
+}
+
+.pcs-name {
+  margin: 0rem 1rem;
+  border-radius: 0.4rem;
+}
+
+.pcs-img-div {
+  margin: 1rem 0rem;
+  display: flex;
+  flex: 1;
+}
+
+.pcs-img-div p {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
+.pcs-last-div {
+  padding-left: 1rem;
+}

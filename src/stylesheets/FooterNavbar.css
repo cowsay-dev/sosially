@@ -1,0 +1,39 @@
+.footer-nav-main {
+  /* backdrop-filter: blur(2rem); */
+  width: 100%;
+  height: 6rem;
+  padding: 0rem 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0%;
+  background-color: white;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.288);
+}
+
+.footer-nav-icon-div {
+  height: 3.6rem;
+  width: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 1.8rem;
+  transition: all 0.2s ease;
+}
+
+.footer-nav-icon-div:active {
+  background-color: #5e17eb1e;
+}
+
+.footer-icon {
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .footer-nav-main {
+    display: none;
+  }
+}

@@ -1,0 +1,83 @@
+.comSec-main {
+  padding-top: 1rem;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.comSec-currUser-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comSec-currUser-avatar-div,
+.comment-avatar {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.comSec-currUser-avatar-div img,
+.comment-avatar img {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 1.8rem;
+  object-fit: cover;
+}
+
+.comSec-input-div {
+  display: flex;
+  flex: 1;
+  margin: 0rem 1rem;
+}
+
+.comSec-input-div input {
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: rgb(245, 245, 245);
+}
+
+.comSec-input-div input:focus {
+  outline: none;
+}
+
+.comSec-btn-div {
+  display: flex;
+}
+
+.comSec-btn-div button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: fit-content;
+  padding: 1rem;
+  background-color: #5e17eb;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.comment-main {
+  margin-top: 1.6rem;
+  display: flex;
+}
+
+.comment-text-div {
+  padding: 0rem 1rem;
+  flex: 1;
+}
+
+.comment-text-uname {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.comment-text-content {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgb(54, 54, 54);
+}

@@ -1,0 +1,123 @@
+.cp-main {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  padding: 1rem;
+  border: none;
+  border-radius: 1.2rem;
+  background-color: white;
+  margin-bottom: 0.6rem;
+}
+
+.cp-img-div {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.cp-img-div img {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 1.8rem;
+  object-fit: cover;
+}
+
+.cp-content-div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.cp-textarea-div {
+  width: 100%;
+  display: flex;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  flex: 1;
+  color: rgb(59, 59, 59);
+  /* border-radius: 0.4rem; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.2rem solid #5e17eb1e;
+  /* border: none; */
+  resize: none;
+  background-color: white;
+  /* background-color: rgba(245, 245, 245, 0.918); */
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.cp-chosen-img-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0rem 0rem;
+}
+
+.cp-chosen-img-div img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.4rem;
+}
+
+.cp-actions-div {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+  height: 2.8rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* .cp-actions-div label {
+  font-size: 3.6rem;
+  cursor: pointer;
+}
+
+.cp-actions-div label:hover {
+  color: rgb(39, 174, 184);
+} */
+
+.select-image-icon {
+  font-size: 2.2rem;
+  color: #5e17eb;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.select-image-icon:active {
+  font-size: 2rem;
+}
+
+#select-image {
+  display: none;
+}
+
+.cp-actions-div input {
+  font-size: 1.4rem;
+  font-weight: 700;
+  height: 100%;
+  width: 5rem;
+  /* padding: 0.6rem 2rem; */
+  background-color: #5e17eb;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cp-actions-div input:active {
+  /* background-color: #8e62e6; */
+  /* transform: scale(1.1); */
+  font-size: 1rem;
+}

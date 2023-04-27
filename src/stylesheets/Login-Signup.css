@@ -1,0 +1,159 @@
+.login-container,
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-main-div,
+.signup-main-div {
+  display: flex;
+  flex-direction: column;
+  width: 36rem;
+  height: fit-content;
+  padding: 2rem;
+  border: none;
+  border-radius: 1.2rem;
+  background-color: white;
+  box-shadow: 0rem 0rem 10rem rgba(0, 0, 0, 0.075);
+}
+
+.login-greeting,
+.signup-greeting {
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-greeting img {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.login-greeting h1,
+.signup-greeting h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.login-greeting p,
+.signup-greeting p {
+  font-size: 1.4rem;
+  text-align: center;
+  color: gray;
+  padding-top: 0.6rem;
+}
+
+form {
+  width: 100%;
+}
+
+.password-icon,
+.mail-icon,
+.avatar-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 1.4rem;
+}
+
+.login-input,
+.signup-input {
+  position: relative;
+  padding: 1rem 0rem;
+}
+
+.login-input input,
+.signup-input input {
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1.6rem 4rem;
+  border-radius: 3rem;
+  color: rgb(78, 78, 78);
+  border: 0.16rem solid transparent;
+  transition: all 0.2s;
+  background-color: rgba(245, 245, 245, 0.918);
+}
+
+.login-input input:focus,
+.signup-input input:focus {
+  outline: none;
+  color: rgb(78, 78, 78);
+  border: 0.16rem solid #5e17eb;
+}
+
+.login-btn-div,
+.signup-btn-div {
+  padding: 1.2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-btn-div button,
+.signup-btn-div button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12rem;
+  height: 3.8rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+  background-color: #5e17eb;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  box-shadow: 0rem 0.2rem 1rem #5e17eb4d;
+}
+
+.login-last-div,
+.signup-last-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0rem;
+}
+
+.login-last-div p,
+.signup-last-div p {
+  font-size: 1.4rem;
+  color: rgb(78, 78, 78);
+  font-weight: 500;
+}
+
+.login-last-div span,
+.signup-last-div span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #5e17eb;
+  padding-left: 0.4rem;
+  cursor: pointer;
+}
+
+.error-msg {
+  padding-left: 2rem;
+  color: red;
+  font-size: 1rem;
+  display: block;
+}
+
+@media (max-width: 414px) {
+  .login-main-div,
+  .signup-main-div {
+    width: 36rem;
+    height: fit-content;
+    padding: 0rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: none;
+    padding: 2rem;
+    background-color: rgb(248, 248, 248);
+  }
+}

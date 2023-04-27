@@ -1,0 +1,175 @@
+/* For profile section */
+.ls-profile-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.ls-profile-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ls-profile-avatar-div {
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.ls-profile-avatar-div img {
+  border: none;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 5rem;
+  /* width: 100%; */
+  object-fit: cover;
+}
+
+.ls-profile-detail p {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.ls-profile-detail span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(66, 66, 66);
+}
+
+.ls-profile-link-div {
+  display: flex;
+  padding: 1rem 0rem 0rem;
+  justify-content: center;
+}
+
+.ls-profile-link-div span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #5e17eb;
+  cursor: pointer;
+}
+
+/* For recommendation section */
+.ls-feed-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+  background-color: white;
+  border-radius: 1.2rem;
+}
+
+.ls-feed-heading {
+  padding: 0.6rem;
+}
+
+.ls-feed-heading h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: gray;
+}
+
+.ls-feed-user-div {
+  display: flex;
+  align-items: center;
+  margin-top: 1.6rem;
+}
+
+.ls-feed-user-img {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.ls-feed-user-img img {
+  width: 3.6rem;
+  height: 3.6rem;
+  object-fit: cover;
+  border: none;
+  border-radius: 1.8rem;
+}
+
+.ls-feed-user-detail {
+  flex: 1;
+  padding: 0rem 1rem;
+}
+
+.ls-feed-user-detail p {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.ls-feed-user-detail span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: gray;
+}
+
+.ls-feed-unfollow {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  /* border: 0.2rem solid #5e17eb; */
+  border: none;
+  cursor: pointer;
+  background-color: #b9b9b975;
+}
+
+.ls-feed-unfollow-icon {
+  font-size: 2rem;
+  font-weight: 700;
+  color: gray;
+}
+
+.ls-feed-unfollow-icon:active {
+  font-size: 1.6rem;
+}
+
+.ls-feed-no-data {
+  /* text-align: center; */
+  padding: 0rem 0.6rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #5e17eb;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .ls-feed-user-img {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+  .ls-feed-user-img img {
+    width: 4.8rem;
+    height: 4.8rem;
+    object-fit: cover;
+    border: none;
+    border-radius: 2.4rem;
+  }
+
+  .ls-feed-user-detail p {
+    font-size: 1.6rem;
+  }
+
+  .ls-feed-user-detail span {
+    font-size: 1.4rem;
+  }
+
+  .ls-feed-unfollow {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+  }
+
+  .ls-feed-unfollow-icon {
+    font-size: 2.4rem;
+  }
+}
