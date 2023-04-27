@@ -20,7 +20,10 @@
   padding: 1rem;
 }
 
-.lp-center-div::-webkit-scrollbar {
+.lp-center-div::-webkit-scrollbar,
+.lp-left-div::-webkit-scrollbar,
+.lp-right-div::-webkit-scrollbar,
+.lp-right-div-2::-webkit-scrollbar {
   display: none;
 }
 
@@ -29,6 +32,8 @@
 .lp-right-div-2 {
   padding: 2rem 1rem;
   width: 30rem;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 
 .lp-right-div-2 {

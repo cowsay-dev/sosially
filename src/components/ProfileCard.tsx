@@ -70,7 +70,7 @@ const ProfileCard = (props: Props) => {
   }
   return (
     <div className="profile-card-main-div">
-      {userData?.avatar ? (
+      {userData?.avatar || userData?.avatar === "" ? (
         <>
           <div className="profile-card-detail">
             <div className="profile-card-fdetail" id="p-card-detail-1">

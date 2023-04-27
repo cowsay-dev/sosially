@@ -11,7 +11,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { AnyAction } from "redux";
 import { setPostData } from "../store/postDataSlice";
 import { UserDataInterface } from "../interfaces";
-import Skeleton from "react-loading-skeleton";
 
 interface CreatePostInterface {
   postText: string;
@@ -81,18 +80,14 @@ const CreatePost = () => {
       >
         <div className="cp-textarea-div">
           <div className="cp-img-div">
-            {userData?.avatar ? (
-              <img
-                src={
-                  userData?.avatar === ""
-                    ? require("../assets/dummy-avatar.png")
-                    : userData?.avatar
-                }
-                alt="create-post-avatar"
-              />
-            ) : (
-              <Skeleton circle width={36} height={36} />
-            )}
+            <img
+              src={
+                userData?.avatar === ""
+                  ? require("../assets/dummy-avatar.png")
+                  : userData?.avatar
+              }
+              alt="create-post-avatar"
+            />
           </div>
           <textarea
             placeholder={"Write something..."}

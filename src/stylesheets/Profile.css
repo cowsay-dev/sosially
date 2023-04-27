@@ -15,7 +15,23 @@
   padding: 2rem 1rem;
 }
 
-.profile-center-div::-webkit-scrollbar {
+.profile-left-div,
+.profile-right-div,
+.profile-right-div-2 {
+  padding: 2rem 1rem;
+  width: 30rem;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.profile-center-div::-webkit-scrollbar,
+.profile-left-div::-webkit-scrollbar,
+.profile-right-div::-webkit-scrollbar,
+.profile-right-div-2 {
+  display: none;
+}
+
+.profile-right-div-2 {
   display: none;
 }
 
@@ -24,10 +40,8 @@
 .profile-right-div-2 {
   padding: 2rem 1rem;
   width: 30rem;
-}
-
-.profile-right-div-2 {
-  display: none;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 
 /* Profile card css comes here */
