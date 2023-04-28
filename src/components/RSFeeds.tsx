@@ -114,7 +114,7 @@ export const Recommendation = ({ data, updateRecommendationData }: Props) => {
   return (
     <section className="rs-feed-user-div">
       <div className="rs-feed-user-img">
-        {userData?.avatar ? (
+        {userData?.avatar || userData?.avatar === "" ? (
           <img
             src={
               userData?.avatar === ""

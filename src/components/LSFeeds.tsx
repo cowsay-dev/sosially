@@ -111,7 +111,7 @@ const Connection = ({ uid, updateConnectionData }: Props) => {
   return (
     <section className="ls-feed-user-div">
       <div className="ls-feed-user-img">
-        {userData?.avatar ? (
+        {userData?.avatar || userData?.avatar === "" ? (
           <img
             src={
               userData?.avatar === ""
