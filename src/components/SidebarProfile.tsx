@@ -30,7 +30,7 @@ const SidebarProfile = () => {
               />
             </div>
             <div className="ls-profile-detail">
-              <p>Welcom back, {userData?.username}!</p>
+              <p>Welcome back, {userData?.username}!</p>
             </div>
           </div>
           <div className="ls-profile-link-div">
